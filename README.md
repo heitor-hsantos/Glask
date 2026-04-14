@@ -698,29 +698,29 @@ Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICEN
 
 ## 👨‍💻 Autor
 
-**Heitor** - [@seu-github](https://github.com/seu-usuario)
+**Heitor** - [@heitor-hsantos](https://github.com/heitor-hsantos)
 
 ---
 
 ## 🌟 Roadmap
 
-### Q2 2024 (Próximo)
+### Q2 2026 (Próximo)
 - [x] Setup inicial do projeto
 - [ ] Implementar chat básico
 - [ ] Integração com OpenAI
 - [ ] Histórico de conversas
 
-### Q3 2024
+### Q3 2026
 - [ ] Contexto de projeto
 - [ ] Leitura de arquivos
 - [ ] Sugestão de comandos
 
-### Q4 2024
+### Q4 2026
 - [ ] Execução de comandos com aprovação
 - [ ] Sandbox para testes
 - [ ] Sistema de plugins
 
-### 2025
+### 2027
 - [ ] Agente autônomo
 - [ ] Machine learning local
 - [ ] Integração com Git/GitHub
