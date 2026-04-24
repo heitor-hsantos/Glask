@@ -1,5 +1,7 @@
 package main
 
-func main() {
+import "Glask/cmd"
 
+func main() {
+	cmd.Execute()
 }
