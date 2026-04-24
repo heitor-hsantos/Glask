@@ -1,0 +1,28 @@
+# .air.toml
+root = "."
+tmp_dir = "tmp"
+
+
+# Comando para construir o binário.
+# Saída será em ./tmp/glask
+[build]
+# O caminho do pacote principal agora é ./cmd
+cmd = "go build -o ./tmp/glask ./cmd/glask"
+
+# Caminho para o binário que o air deve executar (COM ASPAS)
+bin = "tmp/glask"
+
+# Monitora os diretórios com código Go.
+include_dir = ["cmd", "internal"]
+include_ext = ["go"]
+exclude_regex = ["_test.go"]
+stop_on_error = true
+log = "air-build-errors.log"
+
+[log]
+time = true
+[color]
+main = "magenta"
+watcher = "cyan"
+build = "yellow"
+runner = "green"
