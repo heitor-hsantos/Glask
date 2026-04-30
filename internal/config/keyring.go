@@ -2,7 +2,6 @@ package config
 
 import (
 	"github.com/zalando/go-keyring"
-	_ "github.com/zalando/go-keyring"
 )
 
 const (
